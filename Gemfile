@@ -33,6 +33,7 @@ gem 'bootstrap-sass'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise', '~> 3.5.1'
+gem 'paperclip', '~> 4.2'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
