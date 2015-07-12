@@ -28,7 +28,8 @@ gem 'devise', '~> 3.5.1'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2'
 gem 'masonry-rails'
-
+gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
