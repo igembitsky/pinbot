@@ -1,12 +1,8 @@
 <div class="jumbotron center">
 	<h1>Are you <b>ready</b> to start pinning?*</h1>
-    <% if user_signed_in? %>
-    	<h3>Get started by checking out the pins from the nav menu above. Then you can add your own. Play around with resizing the window for even more fun!</h3>
-    <% else %>
 		<p>
 			<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg"%>
 			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg"%>
 		</p>
-	<% end %>
 	*Powered by Ruby on Rails + Bootstrap + Devise + jQuery Masonry, running on Heroku.
 </div>
